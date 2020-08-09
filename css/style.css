@@ -1,5 +1,6 @@
 .container{
 display: inline-block;
+background-image: url('background.jpg');
 }
 .header{
     display: grid;
