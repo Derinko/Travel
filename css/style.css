@@ -12,3 +12,8 @@ display: inline-block;
 .net{
     grid-column: 2/2;
 }
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
