@@ -1,0 +1,14 @@
+.container{
+display: inline-block;
+}
+.header{
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+.slog{
+    grid-column: 1/1;
+    border-left: 1px solid #ffffff;
+}
+.net{
+    grid-column: 2/2;
+}
