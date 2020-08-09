@@ -1,58 +1,82 @@
-body{
-margin: 0;
-padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 
 }
-.contain{
+
+.contain {
+    color: #ffff;
     display: grid;
-    grid-template-rows: 5% 65% 29%;
-    background-image: url("background.jpg");
-     height: 100vh;
+    grid-template-rows: 5% 70% 24%;
+    background-image: url("css/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.nav{
+.nav {
+    
     display: grid;
     grid-row: 1/1;
     grid-template-columns: 30% 70%;
+    
 }
-.logo{
-    display: grid;
-    grid-template-columns: 60% 40%;
+
+.nav>h1 {
+    padding-left: 5%;
 }
-ul{display: flex;
+
+ul {
+    display: flex;
     grid-column: 2/2;
     gap: 10%;
     width: 80%;
+    font-size: 1.5vw;
     justify-content: flex-end;
 }
-li{
+
+li {
     display: inline-block;
 }
-.content{
+
+.content {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 90% 10%;
     grid-row: 2/2;
 }
-.slogan{
-grid-column:1/1 ;
-padding-left: 5%;
-padding-top: 15%;
+
+.slogan {
+    grid-column: 1/1;
+    padding-left: 5%;
+    padding-top: 15%;
 }
-.slogan >h1{
+
+.text {
+    border-left: 5px solid #ffffff;
+    line-height: 25px;
+    height: 8rem;
+}
+
+.text>h1 {
     font-size: 5vw;
 }
-.slogan >h4{
+
+.text>h4 {
     font-size: 2vw;
 }
-.bottom{
+
+.bottom {
     grid-row: 3/3;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 2%;
+    padding-left: 7%;
     padding-right: 2%;
+    backdrop-filter: blur(5px)
 }
+
 .peek {
     height: 80%;
 }
