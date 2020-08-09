@@ -6,7 +6,7 @@ body{
 #cont{
     color: #ffffff;
 display: inline-block;
-background-image: url(background.jpg);
+background-image: url("background.jpg");
 /* background-color: black !important; */
 height: 70vw;
 padding: 0;
