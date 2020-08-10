@@ -47,11 +47,14 @@ li {
 a{
     color: #ffffff;
 }.back{
+    display: grid;
+    grid-template-columns: 10% 90%;
     grid-row: 2/2;
     height: 69%;
     padding-left: 5%;
 }
 .back >img{
+    grid-column: 1/1;
     height: 10%;
     width: 10%;
 }
