@@ -9,7 +9,7 @@ body {
     display: inline-block;
     row-gap: 20px;
     grid-template-rows: 5% 70% 24%;
-    background-image: url("Canadabg.jpg");
+    background-image: url("usa.jpg");
     background-repeat: no-repeat;
     background-size: 130%;
     height: 100vh;
