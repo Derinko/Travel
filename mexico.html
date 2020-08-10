@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/mexico.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contain">
+        <div class="nav">
+            <h1>TravelAgency</h1>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="explore.html">
+                    <li class="active">Explore</li>
+                </a>
+                <a href="">
+                    <li>Flights</li>
+                </a>
+            </ul>
+
+        </div>
+        <div class="back">
+            <a href="NAmerica.html" class="bat">
+                <div class="return">
+                    <img src="img/undo.svg" alt="">
+                    <h1>Volver</h1>
+                </div>
+            </a>
+        </div>
+        <div class="reservation">
+            <div class="act">
+                <h3>RESERVACION</h3>
+            </div>
+            <div class="booking">
+                <form action="" method="post">
+                    <select name="CanadaPlaces" id="Places">
+                        <option value="NYC">New York</option>
+                        <option value="MI">Miami</option>
+                        <option value="LA"> Los Angeles</option>
+                        <option value="LV"> Las Vegas</option>
+                    </select>
+                    <input type="date" name="Check-in" id="Check-in">
+                    <input type="date" name="Check-out" id="Check-out">
+                    <select name="HotelRoom" id="Bedrooms">
+                        <option value="000">Cantidad de personas</option>
+                        <option value="101"> 1 ADULTO - 0 NINOS -1 HAB</option>
+                        <option value="111"> 1 ADULTO - 1 NINOS -1 HAB</option>
+                        <option value="121"> 1 ADULTO - 2 NINOS -1 HAB</option>
+                        <option value="131"> 1 ADULTO - 3 NINOS -1 HAB</option>
+                        <option value="201"> 2 ADULTOS - 0 NINOS -1 HAB</option>
+                        <option value="211"> 2 ADULTOS - 1 NINOS -1 HAB</option>
+                        <option value="222"> 2 ADULTOS - 2 NINOS -2 HAB</option>
+                        <option value="232"> 2 ADULTO - 3 NINOS -1 HAB</option>
+                        <option value="301"> 3 ADULTOS - 0 NINOS -1 HAB</option>
+                        <option value="312"> 3 ADULTOS - 1 NINOS -2 HAB</option>
+                        <option value="322"> 3 ADULTOS - 2 NINOS -2 HAB</option>
+                        <option value="332"> 3 ADULTOS - 3 NINOS -2 HAB</option>
+                    </select>
+                    <input type="submit" value="Reservar" id="Submit">
+                </form>
+            </div>
+            <div class="info">
+                <div>
+                    <h4>Donde?</h4>
+                </div>
+                <div class="check">
+                    <h4> Check-in / Check-out</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
