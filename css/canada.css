@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.contain {
+    color: #ffff;
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: 5% 70% 24%;
+    background-image: url("Canadabg.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav {
+    
+    display: grid;
+    grid-row: 1/1;
+    grid-template-columns: 30% 70%;
+    
+}
+
+.nav>h1 {
+    padding-left: 16%;
+}
+
+ul {
+    display: flex;
+    grid-column: 2/2;
+    gap: 10%;
+    width: 80%;
+    font-size: 1.5vw;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-block;
+}
+.active{
+    border-bottom: 1px solid #ffffff;
+}
+a{
+    color: #ffffff;
+}.back{
+    grid-row: 2/2;
+
+}
+.reservation{
+    display: grid;
+    backdrop-filter: blur(25px);
+    grid-row: 3/3;
+    grid-template-rows: 10% 50% 40%;
+    bottom: 0;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    grid-row: 3/3;
+}
