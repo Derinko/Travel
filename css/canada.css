@@ -6,13 +6,14 @@ body {
 
 .contain {
     color: #ffff;
-    display: grid;
+    display: inline-block;
     row-gap: 20px;
     grid-template-rows: 5% 70% 24%;
     background-image: url("Canadabg.jpg");
     background-repeat: no-repeat;
     background-size: 130%;
     height: 100vh;
+    width: 100vw;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -47,26 +48,88 @@ a{
     color: #ffffff;
 }.back{
     grid-row: 2/2;
-
+    height: 69%;
+    padding-left: 5%;
+}
+.back >img{
+    height: 10%;
+    width: 10%;
 }
 .reservation{
     display: grid;
+
     backdrop-filter: blur(25px);
     grid-row: 3/3;
-    width: 60rem;
-    grid-template-rows: 10% 50% 40%;
-    margin-top: 138%;
+    height: 21%;
+    width: 100vw;
+    grid-template-rows: 30% 35% 35%;
 }
 .act{
     background-color: #ffffff;
     color: #000;
-    width: 20%;
-    height: auto;
-    
+    width: 25%;
+    height: 70%;
+    word-wrap: break-word;
+    text-align: end;
+    font-size: 1.1rem;   
+}
+.act >h3 {
+margin: 0;
+margin-right: 3%;
+}
+.booking{
+    padding-left: 3%;
+    grid-row: 2/2;
+    width: 80%;
+
+}
+form{
+    width: 80%;
+    display: inline-flex;
+    gap: 5%;
+}
+#Places{
+    height: 5vh;
+    margin-top: 2%;
+  
+}
+#Check-in {
+    height: 5vh;
+    margin-top: 2%;
+}
+#Check-out{
+    height: 5vh;
+    margin-top: 2%;
+
+}
+#Bedrooms{
+    height: 5.5vh;
+    margin-top: 2%;
+}
+#Submit{
+    color: #ffff;
+    border-radius: 50px;
+    margin-top: 2%;
+    font-size: medium;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    width: 10rem;
+    height: 3rem;
+}
+#Submit:hover{
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
 }
 .info {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 13%;
     grid-row: 3/3;
+    padding-left: 3%;
+}
+.check{
+    padding-left: 5%;
+    width: 80%;
 }

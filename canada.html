@@ -38,19 +38,43 @@
         </div>
         <div class="back">
             <img src="" alt="">
-            <h1>Atras</h1>
+            <h1>Volver</h1>
         </div>
         <div class="reservation">
             <div class="act">
-                <h3>Reservacion</h3>
+                <h3>RESERVACION</h3>
             </div>
-            <div class=""></div>
+            <div class="booking"> <form action="" method="post">
+                <select name="CanadaPlaces" id="Places">
+                    <option value="Montreal">Montreal</option>
+                    <option value="Niagara">Cataratas del Niagara</option>
+                    <option value="Vancouver"> Vancouver</option>
+                </select>
+                <input type="date" name="Check-in" id="Check-in">
+                <input type="date" name="Check-out" id="Check-out">
+                <select name="HotelRoom" id="Bedrooms" >
+                    <option value="000">-</option>
+                    <option value="101"> 1 ADULTO - 0 NINOS -1 HAB</option>
+                    <option value="111"> 1 ADULTO - 1 NINOS -1 HAB</option>
+                    <option value="121"> 1 ADULTO - 2 NINOS -1 HAB</option>
+                    <option value="131"> 1 ADULTO - 3 NINOS -1 HAB</option>
+                    <option value="201"> 2 ADULTOS - 0 NINOS -1 HAB</option>
+                    <option value="211"> 2 ADULTOS - 1 NINOS -1 HAB</option>
+                    <option value="222"> 2 ADULTOS - 2 NINOS -2 HAB</option>
+                    <option value="232"> 2 ADULTO - 3 NINOS -1 HAB</option>
+                    <option value="301"> 3 ADULTOS - 0 NINOS -1 HAB</option>
+                    <option value="312"> 3 ADULTOS - 1 NINOS -2 HAB</option>
+                    <option value="322"> 3 ADULTOS - 2 NINOS -2 HAB</option>
+                    <option value="332"> 3 ADULTOS - 3 NINOS -2 HAB</option>
+                </select>
+                <input type="submit" value="Reservar" id="Submit"> 
+            </form></div>
             <div class="info">
                 <div>
                     <h4>Donde?</h4>
                 </div>
-                <div>
-                    <h4> Check-in/Check-out</h4>
+                <div class="check">
+                    <h4> Check-in / Check-out</h4>
                 </div>
             </div>
         </div>
