@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="css/NAmerica.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-   
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
     <title>Document</title>
 </head>
 
@@ -19,53 +25,67 @@
             <h1>TravelAgency</h1>
             <ul>
                 <a href="">
-                    <li class="active">Home</li>
+                    <li>Home</li>
                 </a>
                 <a href="explore.html">
-                    <li>Explore</li>
+                    <li class="active">Explore</li>
                 </a>
                 <a href="">
                     <li>Flights</li>
                 </a>
             </ul>
         </div>
-            <div class="main">
-                <div class="tab">
-                    <li class="tablinks" onclick="openCity(event, 'London')">London
-                    </li>
-                    <li class="tablinks" onclick="openCity(event, 'Paris')">Paris </li>
+        <div class="main">
+            <div class="tab">
+                <li class="tablinks" onclick="openCity(event, 'London')">Canada
+                </li>
+                <li class="tablinks" onclick="openCity(event, 'Paris')">USA </li>
 
 
-                </div>
-                <div class="cont">
+            </div>
+            <div class="cont">
                 <div id="London" class="tabcontent">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
+                    <h1>Canada</h1>
+                    <p>Canadá es un país grande y diverso con mucho a su favor, pero la mayoría de los turistas se
+                        sienten atraídos por algunas de las mismas cosas:</p>
+                    <h2>Naturaleza:</h2>
+                    <p>Canadá es uno de los países más hermosos del mundo, lleno de pintorescos bosques, montañas y
+                        lagos. que lo convierten en un lugar fantástico para acampar, hacer senderismo o simplemente
+                        pasear y admirar. </p>
+                    <h2> Deportes de invierno:</h2>
+                    <p>el clima nevado y la geografía montañosa de Canadá han producido una gran cantidad de parques y
+                        centros turísticos de visita obligada para cualquier persona interesada en el esquí, el
+                        snowboard, las raquetas de nieve o cualquier otra actividad que se disfrute mejor en el frío
+                    </p>
+                    <h2>Ciudades</h2>
+                    <p>Canadá es el hogar de varias ciudades grandes y modernas que cualquier persona con un gusto por
+                        la vida urbana podrá apreciar.</p>
+                        <button>Reservar un vuelo </button>
                 </div>
-                
+
                 <div id="Paris" class="tabcontent">
                     <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p> 
+                    <p>Paris is the capital of France.</p>
                 </div>
-                
+
 
             </div>
         </div>
     </div>
-<script>
-    function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
     </script>
 </body>
 

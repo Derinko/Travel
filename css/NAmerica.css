@@ -9,7 +9,7 @@ body {
     display: grid;
     row-gap: 20px;
     grid-template-rows: 5% 70% 24%;
-    background-image: url("img/NAbg.jpg");
+    background-image: url("NAbg.jpg");
     background-repeat: no-repeat;
     background-size: 110%;
     height: 100vh;
@@ -49,11 +49,16 @@ a{
 .main  {
     display: grid;
     grid-row: 2/2;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
+    padding-top: 5%;
 }
 .tab{
     display: flex;
     flex-direction: column;
+    font-size: 4vw;
+    
+    border-right: 2px solid #ddd;
+    padding-left: 15%;
 }
 .tab li:hover {
     background-color: #ddd;
@@ -71,8 +76,8 @@ a{
     display: none;
     padding: 6px 12px;
     height: 100%;
-    border: 1px solid #ccc;
-    border-top: none;
+
+
   }
 
 /* .row{
