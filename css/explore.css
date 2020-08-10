@@ -8,7 +8,7 @@ body {
     color: #ffff;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 5% 70% 24%;
+    grid-template-rows: 10% 70% 20%;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: 110%;
@@ -49,8 +49,9 @@ a{
 .destination{
     grid-column: 2/2;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 20%;
 }
+
 .group{
     display: grid;
     grid-gap: 20px;
@@ -59,9 +60,31 @@ a{
 }
 .Continent{
     height: 5rem;
-    width: 10rem;
+    width: 11rem;
     padding: 1%;
     border: 2px solid #ffffff;
     text-align: center;
     align-items: center;
+}
+.Continent:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+.net{
+    grid-column: 3/3;
+    grid-row: 2/2;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding-top: 15rem;
+    padding-left: 70%;
+}
+.net >img{
+    width:1.7rem;
+    height: 1.7rem;
+}
+a{
+    text-decoration: none;
 }
