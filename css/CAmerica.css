@@ -9,7 +9,7 @@ body {
     display: grid;
     row-gap: 20px;
     grid-template-rows: 5% 70% 24%;
-    background-image: url("NAbg.jpg");
+    background-image: url("CABG.jpg");
     background-repeat: no-repeat;
     background-size: 130%;
     height: 100vh;
